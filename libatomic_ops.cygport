@@ -15,6 +15,10 @@ you to write code:
 HOMEPAGE="https://github.com/ivmai/libatomic_ops"
 SRC_URI="http://www.ivmaisoft.com/_bin/atomic_ops/libatomic_ops-${VERSION}.tar.gz"
 
+# docs should be installed to /usr/share/doc
+# https://github.com/ivmai/libatomic_ops/pull/25
+PATCH_URI="https://patch-diff.githubusercontent.com/raw/ivmai/libatomic_ops/pull/25.patch"
+
 PKG_NAMES="libatomic_ops1 libatomic_ops-devel"
 libatomic_ops1_CONTENTS="
     usr/bin/*-1.dll
@@ -23,21 +27,4 @@ libatomic_ops_devel_CONTENTS="
     usr/include/
     usr/lib/
     usr/share/doc/
-"
-
-DOCS="
-    doc/LICENSING.txt
-    doc/README.txt
-    doc/README_malloc.txt
-    doc/README_stack.txt
-    doc/README_win32.txt
-"
-PKG_IGNORE="
-    usr/share/libatomic_ops/COPYING
-    usr/share/libatomic_ops/LICENSING.txt
-    usr/share/libatomic_ops/README.md
-    usr/share/libatomic_ops/README.txt
-    usr/share/libatomic_ops/README_malloc.txt
-    usr/share/libatomic_ops/README_stack.txt
-    usr/share/libatomic_ops/README_win32.txt
 "
