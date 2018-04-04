@@ -1,5 +1,5 @@
 NAME="libatomic_ops"
-VERSION=7.6.2
+VERSION=7.6.4
 RELEASE=1
 CATEGORY="Libs"
 SUMMARY="Atomic memory update operation library"
