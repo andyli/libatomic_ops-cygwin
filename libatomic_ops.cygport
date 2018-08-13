@@ -1,10 +1,10 @@
 NAME="libatomic_ops"
-VERSION=7.6.4
+VERSION=7.6.6
 RELEASE=1
 CATEGORY="Libs"
 SUMMARY="Atomic memory update operation library"
 DESCRIPTION="This package provides semi-portable access to hardware-provided
-atomic memory update operations on a number architectures. These might allow
+atomic memory update operations on a number of architectures. These might allow
 you to write code:
  * That does more interesting things in signal handlers.
  * Makes more effective use of multiprocessors by allowing you to write clever
