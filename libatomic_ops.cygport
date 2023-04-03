@@ -15,6 +15,9 @@ you to write code:
 HOMEPAGE="https://github.com/ivmai/libatomic_ops"
 SRC_URI="https://github.com/ivmai/libatomic_ops/releases/download/v${VERSION}/libatomic_ops-${VERSION}.tar.gz"
 
+# libatomic_ops MIT, libatomic_ops_gpl GPLv2+
+LICENSE="GPL-2.0-or-later AND MIT"
+
 PKG_NAMES="libatomic_ops1 libatomic_ops-devel"
 libatomic_ops1_CONTENTS="
     usr/bin/*-1.dll
