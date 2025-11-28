@@ -1,5 +1,5 @@
 NAME="libatomic_ops"
-VERSION=7.8.2
+VERSION=7.10.0
 RELEASE=1
 CATEGORY="Libs"
 SUMMARY="Atomic memory update operation library"
@@ -12,8 +12,8 @@ you to write code:
    unavoidably be less portable than lock-based code. It is also not always faster
    than lock-based code. But it may occasionally be a large performance win.
  * To experiment with new and much better thread programming paradigms, etc."
-HOMEPAGE="https://github.com/ivmai/libatomic_ops"
-SRC_URI="https://github.com/ivmai/libatomic_ops/releases/download/v${VERSION}/libatomic_ops-${VERSION}.tar.gz"
+HOMEPAGE="https://github.com/bdwgc/libatomic_ops"
+SRC_URI="https://github.com/bdwgc/libatomic_ops/releases/download/v${VERSION}/libatomic_ops-${VERSION}.tar.gz"
 
 # libatomic_ops MIT, libatomic_ops_gpl GPLv2+
 LICENSE="GPL-2.0-or-later AND MIT"
